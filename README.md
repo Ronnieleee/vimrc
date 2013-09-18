@@ -1,26 +1,26 @@
-#  VIMRC
+#  LONELYVIM
 
-## VIMRCFILE
+## Vimrcfile
     pass
-## TODO: PLUGINS FILES
+## TODO: Plugins Files
     pass
-## TODO: INSTALL
+## TODO: Install
     pass
-## TODO: COMPILING VIM
+## TODO: Compiling Vim
     pass
-## TODO: VIM PLUGINS LIST AND BASIC SETTINGS
+## TODO: Vim Plugins List And Basic Settings
     pass
-## TODO: DETAILED SETTINGS
+## TODO: Detailed Settings
     pass
-## TODO: Key Mappongs
+## TODO: Key Mappings
     pass
 ### Plugin retated mappings
     pass
-### Normal mode mappings
+###   Normal mode mappings
     pass
-### Insert mode mappings
+###   Insert mode mappings
     pass
-### Visual mode mappings
+###   Visual mode mappings
     pass
-## TODO: FILE TREE
+## TODO: File Tree
     pass
