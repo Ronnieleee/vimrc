@@ -12,7 +12,6 @@
 "                   ->Show         Appearances & types settings
 "                   ->Fileencoding Encodings & formats settings
 "                   ->Hot keys     Personal Hotkeys settings
-"                   ->Bundle       Vim Scripts managing & settings
 "                   ->Colortheme   Themes settings
 "                   ->Others       Other settings
 "===============================================================================
@@ -36,8 +35,8 @@ set autoread        " Auto read the file when it has been detected to have been
 set nobackup        " Cancel the backup.
 set noswapfile      " Do not use a swapfile for the buffer.
 " Comment the next two lines if the file's textwidth is longer than 80.
-set cursorcolumn    " Highlight the screen column of the cursor with *column.
-set cursorline      " Highlight the screen line of the cursor with CursorLine.
+"set cursorcolumn    " Highlight the screen column of the cursor with *column.
+"set cursorline      " Highlight the screen line of the cursor with CursorLine.
 set mouse=a         " Enable the use of the mouse.
 "set viminfo^=%     " Remember info about open buffers on close
 set selection=inclusive
@@ -225,6 +224,7 @@ set background=dark " set background color to dark.
 "colorscheme solarized
                     " themes solarized.
 "colorscheme molokai
+colorscheme torte
 set t_Co=256        " Number of colors
 
 " Set extra options when running in GUI mode
@@ -256,12 +256,6 @@ highlight clear SpellRare
 highlight SpellRare term=underline cterm=underline
 highlight clear SpellLocal
 highlight SpellLocal term=underline cterm=underline
-
-" settings for kien/rainbow_parentheses.vim
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
 
 
 "===============================================================================
